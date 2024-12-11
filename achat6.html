@@ -267,7 +267,7 @@
                         return actions.order.create({
                             purchase_units: [{
                                 amount: {
-                                    value: '140' // Utilisez le prix réel ici
+                                    value: '110' // Utilisez le prix réel ici
                                 }
                             }]
                         });
@@ -277,7 +277,7 @@
                             alert('Transaction effectuée par ' + details.payer.name.given_name);
 
                             // Marquer l'œuvre comme vendue dans le localStorage
-                            localStorage.setItem('sold_little5', 'true'); // Remplacez "little7" par l'ID approprié
+                            localStorage.setItem('sold_little19', 'true'); // Remplacez "little7" par l'ID approprié
 
                             // Afficher le lien de téléchargement après un paiement réussi
                             const downloadLink = document.getElementById('downloadLink');
